@@ -7,8 +7,8 @@ module.exports = {
   entry: {
     global: path.resolve(__dirname, "global.js"),
     index: path.resolve(__dirname, "index.js"),
-    // listProducts: "./list-products.js",
-    // addProducts: "./add-products.js",
+    listProducts: "./list-products.js",
+    addProducts: "./add-products.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
